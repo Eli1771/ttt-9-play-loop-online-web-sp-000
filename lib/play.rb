@@ -40,7 +40,7 @@ end
 def play(board)
   count = 0 
   loop do 
-    if count <= 9
+    if count < 9
       puts count
       count += 1
       turn(board)
