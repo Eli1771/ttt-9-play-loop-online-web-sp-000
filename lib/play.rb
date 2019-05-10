@@ -39,7 +39,7 @@ end
 
 def play(board)
   count = 0 
-  do 
+  loop do 
     if count <= 9
       count += 1
       turn(board)
